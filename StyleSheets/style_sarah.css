@@ -1,5 +1,5 @@
 body {
-    background: #f2f8fd url(../images/bg.jpg) repeat-x;
+    background: #f2f8fd url(../images/bg.png) repeat-x;
     font-family: Arial, sans-serif;
     color: #1e5f8a;
     margin: 0px;
@@ -28,7 +28,7 @@ input[type='checkbox'], input[type='radio'] {
 
 div#header {
     height: 100px;
-    background: transparent url(../images/bg.jpg) no-repeat top left;
+    background: transparent url(../images/bg_edit.jpg) no-repeat top left;
     width: 960px;
     margin: 0 auto;
 }
