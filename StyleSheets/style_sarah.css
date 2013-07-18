@@ -4,6 +4,7 @@ body {
     color: #1e5f8a;
     margin: 0px;
     padding: 0px;
+    overflow-x:hidden;
 }
 a {
     color: #1e5f8a;
@@ -17,6 +18,129 @@ a:active
 {
   outline: none;
 }
+
+#mcontainer1 {
+}
+#newimagescroller {
+	margin: 0 auto;
+	position: relative;
+	height: 1000px;
+	width: 600px;
+	right: 75px;
+}
+
+#dropdown1 {
+    margin: 0 auto;
+    background-color: #d3e2ee;
+    height: 200px;
+    width: 80px;
+    position: relative;
+    top: -1017px;
+    left: 30px;
+    opacity: 0.75;
+}
+
+#dropdown1 {
+    margin: 0 auto;
+    background-color: #d3e2ee;
+    height: 200px;
+    width: 80px;
+    position: relative;
+    top: -1017px;
+    left: 30px;
+    opacity: 0.75;
+}
+
+#dropdown2 {
+    margin: 0 auto;
+    background-color: #d3e2ee;
+    height: 200px;
+    width: 80px;
+    position: relative;
+    top: -1217px;
+    left: 112px;
+    opacity: 0.75;
+}
+
+#dropdown3 {
+    margin: 0 auto;
+    background-color: #d3e2ee;
+    height: 200px;
+    width: 80px;
+    position: relative;
+    top: -1417px;
+    left: 194px;
+    opacity: 0.75;
+ }
+
+ #dropdown4 {
+    margin: 0 auto;
+    background-color: #d3e2ee;
+    height: 200px;
+    width: 80px;
+    position: relative;
+    top: -1617px;
+    left: 276px;
+    opacity: 0.75;
+ }
+
+#dropdown5 {
+    margin: 0 auto;
+    background-color: #d3e2ee;
+    height: 200px;
+    width: 80px;
+    position: relative;
+    top: -1817px;
+    left: 358px;
+    opacity: 0.75;
+ }
+
+ #dropdown6 {
+    margin: 0 auto;
+    background-color: #d3e2ee;
+    height: 200px;
+    width: 80px;
+    position: relative;
+    top: -2017px;
+    left: 440px;
+    opacity: 0.75;
+ }
+
+ #subnav {
+ 	background-color:#B8E3E8;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	width: 615px ;
+ 	height: 200px;
+ 	border: 4px solid;
+ 	border-radius: 25px;
+ 	border-color: #EFEADC;
+ 	top:-1850px;
+ 	opacity: 0.95;
+ 	moz-border-radius: 30px;
+ 	padding: 15px;
+ }
+
+ #img1 {
+ 	margin-left: 4px;
+ }
+
+ #list1 li {
+ 	list-style-type: none;
+ 	display: inline;
+ }
+
+ #wv {
+ 	margin-left: -10px;
+ }
+
+ #lc {
+ 	margin-left: 75px;
+ }
+
+ #d {
+ 	margin-left: 105px;
+ }
 input,textarea,select{
     border: 1px solid #1e5f8a;
     padding: 5px;
