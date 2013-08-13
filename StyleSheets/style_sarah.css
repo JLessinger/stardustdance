@@ -1,6 +1,6 @@
 body {
     background: #f2f8fd url(../images/bg.png) repeat-x;
-    font-family: Arial, sans-serif;
+    font-family: Avenir, sans-serif;
     color: #1e5f8a;
     margin: 0px;
     padding: 0px;
@@ -26,7 +26,7 @@ a:active
 	position: relative;
 	height: 1000px;
 	width: 600px;
-	right: 75px;
+	left: -300px;
 }
 
 #dropdown1 {
@@ -35,7 +35,7 @@ a:active
     height: 200px;
     width: 80px;
     position: relative;
-    top: -1017px;
+    top: -1020px;
     left: 30px;
     opacity: 0.75;
 }
@@ -46,7 +46,7 @@ a:active
     height: 200px;
     width: 80px;
     position: relative;
-    top: -1017px;
+    top: -1020px;
     left: 30px;
     opacity: 0.75;
 }
@@ -57,7 +57,7 @@ a:active
     height: 200px;
     width: 80px;
     position: relative;
-    top: -1217px;
+    top: -1220px;
     left: 112px;
     opacity: 0.75;
 }
@@ -68,7 +68,7 @@ a:active
     height: 200px;
     width: 80px;
     position: relative;
-    top: -1417px;
+    top: -1420px;
     left: 194px;
     opacity: 0.75;
  }
@@ -79,7 +79,7 @@ a:active
     height: 200px;
     width: 80px;
     position: relative;
-    top: -1617px;
+    top: -1620px;
     left: 276px;
     opacity: 0.75;
  }
@@ -90,7 +90,7 @@ a:active
     height: 200px;
     width: 80px;
     position: relative;
-    top: -1817px;
+    top: -1820px;
     left: 358px;
     opacity: 0.75;
  }
@@ -101,7 +101,7 @@ a:active
     height: 200px;
     width: 80px;
     position: relative;
-    top: -2017px;
+    top: -2020px;
     left: 440px;
     opacity: 0.75;
  }
@@ -111,14 +111,16 @@ a:active
  	margin: 0 auto;
  	position: relative;
  	width: 615px ;
- 	height: 200px;
+ 	height: 190px;
  	border: 4px solid;
  	border-radius: 25px;
- 	border-color: #EFEADC;
- 	top:-1850px;
+ 	border-color: #999999;
+ 	top:-1950px;
  	opacity: 0.95;
  	moz-border-radius: 30px;
  	padding: 15px;
+    left: -150px;
+    z-index: 200;
  }
 
  #img1 {
@@ -126,21 +128,109 @@ a:active
  }
 
  #list1 li {
+    top: -10px;
  	list-style-type: none;
  	display: inline;
+    font-family: arial;
+    font-size: 18px;
  }
 
  #wv {
- 	margin-left: -10px;
+ 	margin-left: -20px;
  }
 
  #lc {
- 	margin-left: 75px;
+ 	margin-left: 60px;
  }
 
  #d {
- 	margin-left: 105px;
+ 	margin-left: 90px;
  }
+#arrow {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 150px;
+    margin-top: -2300px;
+    left: -550px;
+    }
+#arrow1 {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 150px;
+    top: -260px;
+    left: 550px;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); /* IE 9 */
+    -webkit-transform:rotate(180deg); /* Safari and Chrome */
+
+
+}
+
+#section1 {
+    position: relative;
+    margin: 0 auto;
+    height:500px;
+    width: 1200px;
+    z-index: 100;
+    background-color: #EFEADC;
+    top: -100px;
+}
+
+#fill1 {
+    position: relative;
+    margin: 0 auto;
+    height: 435px;
+    width: 1100px;
+    background-color: #F9F5EA;
+    top:30px;
+    
+}
+
+#content1 {
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: Avenir;
+    font-size: 16px;
+    text-align: justify;
+    width: 700px;
+    height: 300px;
+    left: -160px;
+}
+
+#button1 {
+    position: relative;
+    margin: 0 auto;
+    height: 33px;
+    width: 124px;
+
+background: rgb(165,214,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(165,214,255,1) 0%, rgba(63,153,186,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(165,214,255,1)), color-stop(100%,rgba(63,153,186,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(165,214,255,1) 0%,rgba(63,153,186,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(165,214,255,1) 0%,rgba(63,153,186,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(165,214,255,1) 0%,rgba(63,153,186,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(165,214,255,1) 0%,rgba(63,153,186,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5d6ff', endColorstr='#3f99ba',GradientType=0 ); /* IE6-9 */
+border-radius: 10px;
+moz-border-radius:4px;
+left: -450px;
+top: -200px;
+color: white;
+font-family: arial;
+}
+
+#button1text {
+    position: relative;
+    margin: 0 auto;
+    left: 23px;
+    top: 6px;
+    font-size: 15px;
+}
+
+
 input,textarea,select{
     border: 1px solid #1e5f8a;
     padding: 5px;
